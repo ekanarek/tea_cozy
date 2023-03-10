@@ -1,0 +1,153 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    overflow: scroll;
+}
+
+header {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -8px;
+    margin-left: -5px;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell; 
+    background-color: black;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+}
+
+#logo img {
+    height: 50px;
+    width: auto;
+    opacity: 0.9;
+}
+
+nav {
+    margin-right: 15px;
+    display: inline-flex;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    text-decoration: underline;
+    padding: 15px;
+    opacity: 0.9;
+}
+
+#main {
+    position: relative;
+    top: 70px; 
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 700px;
+    overflow: hidden;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    opacity: 0.9;
+}
+
+#mission {
+    background-color: black;
+    position: absolute;
+    width: 1200px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+#mission h2, h4 {
+    margin: 10px;
+}
+
+#teas {
+    width: 1000px;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+#tea-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-box {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 25px;
+    opacity: 0.9;
+}
+
+.tea-box img {
+    height: 200px;
+    margin-top: 20px;
+}
+
+#locations {
+    margin-top: 30px;
+    height: 500px;
+    width: 1200px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#locations h2 {
+    opacity: 0.9;
+}
+
+#location-boxes {
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+}
+
+.location-box {
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#contact {
+    height: 200px;
+    width: 1200px;
+    text-align: center;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    opacity: 0.8;
+    padding-left: 20px;
+}
